@@ -124,6 +124,8 @@ for i in range(len(nums2)):
     if prefix_eval(arr[i]) == 24:
         print(c.convert(arr[i]))
         break
+    if i == len(nums2)-1:
+        print("No Solution")
 
 
         
